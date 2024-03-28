@@ -1,20 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T23:37:22.367Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="Ox-le6_86JAj1keO5S9P" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T23:45:01.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="xpVm8V9VkCvl2-3-MWnO" version="24.2.1" type="github">
   <diagram name="Page-1" id="SuF_tKjuyh1ONdO2cYmx">
-    <mxGraphModel dx="984" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="2154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rBRFb9PsgwLIzco-iRYi-2" value="Car" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rBRFb9PsgwLIzco-iRYi-3" value="year: int&lt;div&gt;make: String&lt;/div&gt;&lt;div&gt;model: String&lt;/div&gt;&lt;div&gt;bodyType: String&lt;/div&gt;&lt;div&gt;transmission: String&lt;/div&gt;&lt;div&gt;odometer: int&lt;/div&gt;&lt;div&gt;engineSize: int&lt;/div&gt;&lt;div&gt;warrantOfFitness: Date&lt;/div&gt;&lt;div&gt;price: double&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="79" width="220" height="161" as="geometry" />
         </mxCell>
         <mxCell id="rBRFb9PsgwLIzco-iRYi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rBRFb9PsgwLIzco-iRYi-4" target="rBRFb9PsgwLIzco-iRYi-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rBRFb9PsgwLIzco-iRYi-4" value="&lt;div&gt;getYear(): int&lt;/div&gt;&lt;div&gt;getMake(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;setOdometer(int distance): void&lt;div&gt;setWoF(Date newDate): void&lt;/div&gt;&lt;div&gt;setPrice(double newPrice): void&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-6" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="40" as="sourcePoint" />
+            <mxPoint x="440" y="-80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" />
+              <mxPoint x="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-7" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="40" as="sourcePoint" />
+            <mxPoint x="440" y="-80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="40" />
+              <mxPoint x="820" />
+              <mxPoint x="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-9" value="Motorcycle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="40" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="80" width="220" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-11" value="&lt;div&gt;getYear(): int&lt;/div&gt;&lt;div&gt;getMake(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;setOdometer(int distance): void&lt;div&gt;setWoF(Date newDate): void&lt;/div&gt;&lt;div&gt;setPrice(double newPrice): void&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="240" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-12" value="&lt;i&gt;Vehicle&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-520" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-13" value="year: int&lt;div&gt;&lt;div&gt;make: String&lt;/div&gt;&lt;div&gt;model: String&lt;/div&gt;&lt;div&gt;name: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;transmission: String&lt;/div&gt;&lt;div&gt;odometer: int&lt;/div&gt;&lt;div&gt;engineSize: int&lt;/div&gt;&lt;div&gt;warrantOfFitness: Date&lt;/div&gt;&lt;div&gt;price: double&lt;/div&gt;&lt;/div&gt;&lt;div&gt;numGears: int&lt;/div&gt;&lt;div&gt;currentGear: int&lt;/div&gt;&lt;div&gt;currentSpeed: int&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-480" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rBRFb9PsgwLIzco-iRYi-14" value="&lt;div&gt;&lt;div&gt;getYear(): int&lt;/div&gt;&lt;div&gt;getMake(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;setOdometer(int distance): void&lt;div&gt;setWoF(Date newDate): void&lt;/div&gt;&lt;div&gt;setPrice(double newPrice): void&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;changeGears(int newGear): int&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;changeSpeed(int newSpeed): int&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-260" width="220" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
