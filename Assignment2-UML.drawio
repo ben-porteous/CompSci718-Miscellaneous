@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:34:47.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="_DPneU7NXuyV-d8AacZr" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:41:07.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="kfAi1H4SkdAa7vlXrOik" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
-    <mxGraphModel dx="1985" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2467" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,10 +70,10 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-25" value="Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="30" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-26" value="+ secretCode: int[ ]&lt;div&gt;+ guesses: int[ ]&lt;/div&gt;&lt;div&gt;+ currentGuess: int;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YOF9pa97loRDRJes7WbL-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="90" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-27" value="&lt;div&gt;&lt;i&gt;+createSecretCode(): void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ createGuess(): void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ guessCode(int guess): void&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YOF9pa97loRDRJes7WbL-27" value="start(): void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="150" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YOF9pa97loRDRJes7WbL-28" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
