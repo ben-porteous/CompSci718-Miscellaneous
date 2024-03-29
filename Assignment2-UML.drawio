@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:27:03.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="PmBF7FccuKmaxiYWmYAg" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:34:47.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="_DPneU7NXuyV-d8AacZr" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
-    <mxGraphModel dx="984" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,8 +58,29 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="390" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-23" value="- codeGenerator(): void&lt;div&gt;- createGuess(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YOF9pa97loRDRJes7WbL-23" value="- codeGenerator(): int[ ]&lt;div&gt;- createGuess(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="450" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF9pa97loRDRJes7WbL-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YOF9pa97loRDRJes7WbL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="120" as="sourcePoint" />
+            <mxPoint x="360" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOF9pa97loRDRJes7WbL-25" value="Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF9pa97loRDRJes7WbL-26" value="+ secretCode: int[ ]&lt;div&gt;+ guesses: int[ ]&lt;/div&gt;&lt;div&gt;+ currentGuess: int;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="90" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF9pa97loRDRJes7WbL-27" value="&lt;div&gt;&lt;i&gt;+createSecretCode(): void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ createGuess(): void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ guessCode(int guess): void&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="150" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF9pa97loRDRJes7WbL-28" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF9pa97loRDRJes7WbL-30" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
