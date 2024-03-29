@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T04:03:58.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="kQ1z4K3RkVGYHKu8l_rP" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T04:42:24.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="3HkPvCLcIBT1ie8CM-Aq" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
-    <mxGraphModel dx="2467" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-3" value="+ secretCode: int[ ]&lt;div&gt;+ guesses: int[ ]&lt;/div&gt;&lt;div&gt;+ currentGuess: int;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="90" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-4" value="&lt;div&gt;&lt;i&gt;+createSecretCode(): void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ createGuess(): void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ guessCode(int guess): void&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="150" width="220" height="60" as="geometry" />
+        <mxCell id="YOF9pa97loRDRJes7WbL-4" value="&lt;div&gt;&lt;i&gt;+createSecretCode(): void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ createGuess(): void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ guessCode(int guess): void&lt;/i&gt;&lt;div&gt;&lt;i&gt;+ testNewCode(): boolean&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="150" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YOF9pa97loRDRJes7WbL-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -40,7 +40,7 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-14" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="439.5" y="270" as="sourcePoint" />
-            <mxPoint x="439.5" y="210" as="targetPoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YOF9pa97loRDRJes7WbL-16" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -73,8 +73,8 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-26" value="winner: Player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="90" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-27" value="start(): void&lt;div&gt;winnerAnnounced(Player player): void&lt;/div&gt;&lt;div&gt;welcomeMessage(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="150" width="220" height="60" as="geometry" />
+        <mxCell id="YOF9pa97loRDRJes7WbL-27" value="- start(): void&lt;div&gt;-&amp;nbsp;welcomeMessage(): void&lt;div&gt;+ winnerAnnounced(Player player): void&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="150" width="220" height="190" as="geometry" />
         </mxCell>
         <mxCell id="YOF9pa97loRDRJes7WbL-28" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-330" y="80" width="60" height="30" as="geometry" />
