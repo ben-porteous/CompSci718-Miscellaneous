@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T05:39:19.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="hBzTOowYlF8xw8BZ9Q6W" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T05:43:39.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="U5nh2AgelMTZEsmQpGpN" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
     <mxGraphModel dx="2139" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-3" value="+ secretCode: int[ ]&lt;div&gt;+ guesses: int[ ]&lt;/div&gt;&lt;div&gt;+ currentGuess: int;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="90" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-4" value="&lt;div&gt;&lt;i&gt;+createSecretCode(): void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ createGuess(): void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ guessCode(int guess): void&lt;/i&gt;&lt;div&gt;&lt;i&gt;+ testNewCode(): boolean&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="331" y="150" width="220" height="80" as="geometry" />
+        <mxCell id="YOF9pa97loRDRJes7WbL-4" value="&lt;div&gt;&lt;i&gt;+createSecretCode(): void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ createGuess(): void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ checkGuess(int guess, int opponentCode): void&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="420" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YOF9pa97loRDRJes7WbL-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,7 +49,7 @@
         <mxCell id="YOF9pa97loRDRJes7WbL-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="390" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOF9pa97loRDRJes7WbL-20" value="&lt;br&gt;&lt;div&gt;- convertGuessToArray(int guess): void&lt;/div&gt;&lt;div&gt;- getNumGuesses(): int&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YOF9pa97loRDRJes7WbL-20" value="&lt;br&gt;&lt;div&gt;- convertGuessToArray(int guess): void&lt;/div&gt;&lt;div&gt;- getNumGuesses(): int&amp;nbsp;&lt;/div&gt;&lt;div&gt;- testProposedCode: void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="450" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YOF9pa97loRDRJes7WbL-21" value="Computer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
