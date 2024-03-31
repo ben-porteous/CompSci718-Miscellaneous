@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T21:23:17.606Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="5XzbrHYEDio25shPtn7q" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T21:26:50.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="3_3nnrtGta8lUbIMD5HZ" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
-    <mxGraphModel dx="4556" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3863" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
         <mxCell id="hQRz_85s9rLfY9cLulfY-21" value="Computer also includes a pastGuesses array. Although not going to have method to review past guesses, it will be used to ensure computer doesn&#39;t guess the same code twice when playing multi-player&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillOpacity=70;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="280" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="hQRz_85s9rLfY9cLulfY-23" value="As the &amp;nbsp;code for taking guess is unique to player vs computer the createGuess method is included in player class." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="hQRz_85s9rLfY9cLulfY-23" value="As the &amp;nbsp;code for taking guess is unique to the type of player (user vs computer) the createGuess method is included in the player class." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="380" width="670" height="100" as="geometry" />
         </mxCell>
       </root>
