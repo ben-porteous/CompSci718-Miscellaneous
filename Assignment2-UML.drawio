@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T21:49:22.787Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="x-tvLqCSE9gMF_7WCn56" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T21:57:29.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="zvkbPKxpO1U_A7BI4R7B" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
-    <mxGraphModel dx="4435" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3746" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,14 +88,14 @@
         <mxCell id="hQRz_85s9rLfY9cLulfY-2" value="- computerSecretCode: int" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1630" y="230" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hQRz_85s9rLfY9cLulfY-3" value="&lt;div&gt;- playRound(): void&lt;/div&gt;&lt;div&gt;- checkGuess(guess: int, computerSecretCode: int): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;- declareWinner(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1630" y="290" width="360" height="90" as="geometry" />
+        <mxCell id="hQRz_85s9rLfY9cLulfY-3" value="&lt;div&gt;- playRound(): void&lt;/div&gt;&lt;div&gt;- checkGuess(guess: int, computerSecretCode: int): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;- declareWinner(): void&lt;/div&gt;&lt;div&gt;- saveResults(computerSecretCode: int, pastGuesses: int[ ], pastGuessesResults: String[ ], winner: Player): boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="290" width="660" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hQRz_85s9rLfY9cLulfY-4" value="+ MultiPlayerGame" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-600" y="170" width="360" height="60" as="geometry" />
+          <mxGeometry x="-600" y="170" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQRz_85s9rLfY9cLulfY-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="230" width="360" height="60" as="geometry" />
+          <mxGeometry x="-600" y="230" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hQRz_85s9rLfY9cLulfY-13" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="YOF9pa97loRDRJes7WbL-27">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -121,8 +121,8 @@
         <mxCell id="hQRz_85s9rLfY9cLulfY-18" value="0...1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-660" y="175" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQRz_85s9rLfY9cLulfY-19" value="&lt;div&gt;- decideFirstPlayer(): Player&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;playRound(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- checkGuess(iguess: int, opponentSecretCode: int): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;- declareWinner(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="290" width="360" height="90" as="geometry" />
+        <mxCell id="hQRz_85s9rLfY9cLulfY-19" value="&lt;div&gt;- decideFirstPlayer(): Player&lt;/div&gt;&lt;div&gt;-&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;playRound(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- checkGuess(iguess: int, opponentSecretCode: int): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;- declareWinner(): void&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;- saveResults(computerSecretCode: int, userSecretCode: int, userPastGuesses: int[ ], computerPastGuesses: int[ ], userPastGuessesResults: String[ ], computer&lt;/span&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;PastGuessesResults: String[ ],&lt;/span&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&amp;nbsp;winner: Player): boolean&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="290" width="590" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hQRz_85s9rLfY9cLulfY-20" value="is played by" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="90" width="100" height="30" as="geometry" />
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="hQRz_85s9rLfY9cLulfY-23" value="As the &amp;nbsp;code for taking guess is unique to the type of player (user vs computer) the createGuess method is included in the player class." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="380" width="670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hQRz_85s9rLfY9cLulfY-24" value="&lt;ul style=&quot;font-size: 16px; text-align: start; white-space: normal; box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px; caret-color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The player and computer’s secret code&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Each guess that was made, in the same order as occurred during the game, along with the result of that guess (i.e. how many bulls &amp;amp; cows it got)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;The identity of the winner (or a message stating that the game was a draw)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;imageAspect=0;recursiveResize=0;overflow=width;" vertex="1" parent="1">
+          <mxGeometry x="-1790" y="500" width="1130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
