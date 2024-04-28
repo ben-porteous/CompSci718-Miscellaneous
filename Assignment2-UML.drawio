@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T03:06:33.063Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="2IsJQqd_jwAiHRfFfXn1" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T03:08:16.564Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="yHrqu9BCFKDLi7zXtea8" version="24.2.1" type="github">
   <diagram name="Page-1" id="k9EaVZVAbxrQNVvtNwEI">
-    <mxGraphModel dx="6439" dy="2751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5957" dy="2507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
         <mxCell id="tzWpKe4abZOgEzqRnZSf-18" value="+ checkPlayerGuess(player1: Player, player2: Player, round: int) : boolean&lt;div&gt;+ cowBullChecker&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;(player1: Player, player2: Player, round: int) : boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ askToSave() : boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ saveResults(player1: Player, player2: Player) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ saveResults(player1: Player, secretCode: int) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1840" y="270" width="410" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="tzWpKe4abZOgEzqRnZSf-19" value="Method to Test if code/guess meets Secret Code criteria of&amp;nbsp;&lt;span style=&quot;font-size: 12px;&quot;&gt;4 unique digits;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Re-requests if not valid.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Returns valid code&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;resizable=1;autosize=0;overflow=width;snapToPoint=0;align=left;spacingLeft=0;spacing=2;" vertex="1" parent="1">
+        <mxCell id="tzWpKe4abZOgEzqRnZSf-19" value="Method to Test if a code/guess meets Secret Code criteria of&amp;nbsp;&lt;span style=&quot;font-size: 12px;&quot;&gt;4 unique digits;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Re-requests if not valid.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Returns valid code&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;resizable=1;autosize=0;overflow=width;snapToPoint=0;align=left;spacingLeft=0;spacing=2;" vertex="1" parent="1">
           <mxGeometry x="480" y="350" width="480" height="50" as="geometry" />
         </mxCell>
       </root>
