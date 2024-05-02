@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T06:15:11.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="yMXRR6KWi4YGDTC6XHic" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T06:20:45.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="CMx0sUT7F1UMzqHnIQZ2" version="24.3.1" type="github">
   <diagram name="Page-1" id="k0b15O7BoX57XoeLq1dA">
-    <mxGraphModel dx="2777" dy="2319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="1981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-3" value="&lt;div&gt;- secretCode: String&lt;/div&gt;&lt;div&gt;- guesses: String[ ]&lt;/div&gt;&lt;div&gt;- guessesResults: String[ ]&lt;/div&gt;&lt;div&gt;- currentGuess: String&lt;/div&gt;&lt;div&gt;- guessNumber: int&lt;/div&gt;&lt;div&gt;- playerName: String&lt;/div&gt;&lt;div&gt;- winner: boolean&lt;/div&gt;&lt;div&gt;- secretCodeLength: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2351" y="490" width="409" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-4" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration: none; display: inline !important; float: none;&quot;&gt;+ testNumCodeValid(proposedGuessOrCode: String): String&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration: none; display: inline !important; float: none;&quot;&gt;+ testHexCodeValid(proposedGuessOrCode: String): String&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="2351" y="640" width="409" height="140" as="geometry" />
         </mxCell>
         <mxCell id="XR4MavHLO2OCBJJE3bpX-5" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -49,7 +49,7 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="1040" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-12" value="&lt;div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ createNumCode() : String&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ createNumGuess() : String&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ createHexGuess(): String&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ codeTestMethod(proposedGuessOrCode: String, arrayLength: int): String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-12" value="&lt;div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ createNumCode() : String&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ createNumGuess() : String&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ createHexGuess(): String&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="1100" width="430" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XR4MavHLO2OCBJJE3bpX-13" value="&lt;i&gt;+ Computer&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
@@ -158,8 +158,8 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-42" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ askToSave() : boolean&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ saveResults(player1: Player, player2: Player) : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ saveResults(player1: Player, secretCode: String) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="660" width="410" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-43" value="Method to Test if a code/guess meets Secret Code criteria of&amp;nbsp;&lt;span style=&quot;font-size: 12px;&quot;&gt;4 unique digits;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Re-requests if not valid.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Returns valid code&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;resizable=1;autosize=0;overflow=width;snapToPoint=0;align=left;spacingLeft=0;spacing=2;" parent="1" vertex="1">
-          <mxGeometry x="2760" y="730" width="450" height="50" as="geometry" />
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-43" value="Method to Test if a code/guess meets Secret Code criteria&amp;nbsp;&lt;div&gt;Re-requests if not valid.&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Returns valid code&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;resizable=1;autosize=0;overflow=width;snapToPoint=0;align=left;spacingLeft=0;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="2770" y="700" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="02xlhmb3b4sPCXEWrW8h-1" value="+ ComputerHard" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2750" y="1450" width="420" height="60" as="geometry" />
@@ -194,7 +194,7 @@
         <mxCell id="02xlhmb3b4sPCXEWrW8h-12" value="&lt;div&gt;- hexList: List&amp;lt;String&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3210" y="1510" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ filterGuessList(guess: String, guessResult: String) : void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ filterGuessList(guess: String, guessResult: String) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3210" y="1570" width="420" height="170" as="geometry" />
         </mxCell>
         <mxCell id="02xlhmb3b4sPCXEWrW8h-14" value="" style="endArrow=block;html=1;rounded=0;endFill=0;entryX=0.431;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
