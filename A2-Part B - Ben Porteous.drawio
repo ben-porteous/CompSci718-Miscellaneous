@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T06:20:45.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="CMx0sUT7F1UMzqHnIQZ2" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-03T19:34:16.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="8GiY9s3qaxQwxOQLzB0G" version="24.3.1" type="github">
   <diagram name="Page-1" id="k0b15O7BoX57XoeLq1dA">
-    <mxGraphModel dx="1678" dy="1981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2448" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,10 +58,10 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2520" y="1040" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;i&gt;+ createGuess() : String&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;i&gt;+ createCode(): String&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;i&gt;+ checkPlayerGuess(player1: Player, player2: Player, round: int) : boolean&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ cowBullChecker&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;(player1: Player, player2: Player, round: int) : boolean&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;i&gt;+ createGuess() : String&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;i&gt;+ createSecretCode(): String&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;i&gt;+ checkPlayerGuess(player1: Player, player2: Player, round: int) : boolean&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ cowBullChecker&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;(player1: Player, player2: Player, round: int) : boolean&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2520" y="1100" width="420" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="XR4MavHLO2OCBJJE3bpX-37">
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XR4MavHLO2OCBJJE3bpX-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1816" y="548.75" as="sourcePoint" />
             <mxPoint x="2350" y="550" as="targetPoint" />
@@ -97,7 +97,7 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-26" value="- round: int" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="1330" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-27" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="XR4MavHLO2OCBJJE3bpX-19" edge="1" source="XR4MavHLO2OCBJJE3bpX-37">
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-27" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="XR4MavHLO2OCBJJE3bpX-37" target="XR4MavHLO2OCBJJE3bpX-19" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1180" y="611" as="sourcePoint" />
             <mxPoint x="1540" y="611" as="targetPoint" />
@@ -121,7 +121,7 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-34" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;GameBase is our base game code, from which single or multiplayer game launched&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;resizable=1;autosize=0;overflow=width;snapToPoint=0;" parent="1" vertex="1">
           <mxGeometry x="1170" y="70" width="520" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XR4MavHLO2OCBJJE3bpX-35" value="" style="endArrow=block;html=1;rounded=0;endFill=0;entryX=0.45;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="XR4MavHLO2OCBJJE3bpX-42" edge="1" source="XR4MavHLO2OCBJJE3bpX-22">
+        <mxCell id="XR4MavHLO2OCBJJE3bpX-35" value="" style="endArrow=block;html=1;rounded=0;endFill=0;entryX=0.45;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="XR4MavHLO2OCBJJE3bpX-22" target="XR4MavHLO2OCBJJE3bpX-42" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="1280" as="sourcePoint" />
             <mxPoint x="986" y="820" as="targetPoint" />
@@ -161,73 +161,73 @@
         <mxCell id="XR4MavHLO2OCBJJE3bpX-43" value="Method to Test if a code/guess meets Secret Code criteria&amp;nbsp;&lt;div&gt;Re-requests if not valid.&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Returns valid code&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;resizable=1;autosize=0;overflow=width;snapToPoint=0;align=left;spacingLeft=0;spacing=2;" parent="1" vertex="1">
           <mxGeometry x="2770" y="700" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-1" value="+ ComputerHard" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-1" value="+ ComputerHard" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2750" y="1450" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-2" value="- possibleGuesses: List&amp;lt;String&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-2" value="- possibleGuesses: List&amp;lt;String&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2750" y="1510" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-4" value="+ ComputerMedium" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-4" value="+ ComputerMedium" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2290" y="1450" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2290" y="1510" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ codeGenerator(): String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ checkGuessHistory(): boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ codeGenerator(): String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ checkGuessHistory(): boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2290" y="1570" width="420" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-7" value="+ ComputerEasy" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-7" value="+ ComputerEasy" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1820" y="1450" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1820" y="1510" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ codeGenerator(): String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ codeGenerator(): String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1820" y="1570" width="420" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+generatePossibleGuesses(): List&amp;lt;String&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ createGuess() : String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ filterGuessList(guess: String, guessResult: String) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+generatePossibleGuesses(): List&amp;lt;String&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ createGuess() : String&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ filterGuessList(guess: String, guessResult: String) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2750" y="1570" width="420" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-11" value="+ ComputerHex" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-11" value="+ ComputerHex" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3210" y="1450" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-12" value="&lt;div&gt;- hexList: List&amp;lt;String&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-12" value="&lt;div&gt;- hexList: List&amp;lt;String&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3210" y="1510" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ filterGuessList(guess: String, guessResult: String) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ filterGuessList(guess: String, guessResult: String) : void&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3210" y="1570" width="420" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-14" value="" style="endArrow=block;html=1;rounded=0;endFill=0;entryX=0.431;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-14" value="" style="endArrow=block;html=1;rounded=0;endFill=0;entryX=0.431;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2729" y="1380" as="sourcePoint" />
             <mxPoint x="2729.1690000000003" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2050" y="1380" as="sourcePoint" />
             <mxPoint x="3430" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.543;exitY=-0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="02xlhmb3b4sPCXEWrW8h-7">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.543;exitY=-0.056;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="02xlhmb3b4sPCXEWrW8h-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2050" y="1440" as="sourcePoint" />
             <mxPoint x="2050" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="02xlhmb3b4sPCXEWrW8h-4">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="02xlhmb3b4sPCXEWrW8h-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2520" y="1450" as="sourcePoint" />
             <mxPoint x="2500" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="02xlhmb3b4sPCXEWrW8h-1">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="02xlhmb3b4sPCXEWrW8h-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2956" y="1450" as="sourcePoint" />
             <mxPoint x="2960" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="02xlhmb3b4sPCXEWrW8h-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.527;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="02xlhmb3b4sPCXEWrW8h-11">
+        <mxCell id="02xlhmb3b4sPCXEWrW8h-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.527;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="02xlhmb3b4sPCXEWrW8h-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3440" y="1460" as="sourcePoint" />
             <mxPoint x="3432" y="1380" as="targetPoint" />
