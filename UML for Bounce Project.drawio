@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T05:57:43.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="-vAWYN5PQCT5higGWYZN" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T06:01:55.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="uptMiV9sx-4Dk8W1aa4D" version="24.4.0" type="github">
   <diagram name="Page-1" id="ubM7CDHuB8m3kzV2Bm6y">
     <mxGraphModel dx="1541" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,6 +27,21 @@
         </mxCell>
         <mxCell id="MaU48TReLEHeVx3_mteO-14" value="+ paint(painter: Painter): void&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="830" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MaU48TReLEHeVx3_mteO-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="sourcePoint" />
+            <mxPoint x="890" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaU48TReLEHeVx3_mteO-17" value="AnimationViewer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="230" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MaU48TReLEHeVx3_mteO-18" value="- delay: int&lt;div&gt;- timer: Timer&lt;br&gt;&lt;div&gt;- shapes: List&amp;lt;Shape&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MaU48TReLEHeVx3_mteO-19" value="+ paintComponent(g: Graphics): void&lt;div&gt;+ actionPerformed(e: ActionEvent): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="490" width="310" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
